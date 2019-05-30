@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(C:/Users/38161/Desktop/ispit/slike/intro-bg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.navigation {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+ul#nav {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+ul#nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+}
+
+ul#nav li a:hover {
+    color: rgb(255, 72, 0);
+}
+
+.title {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 90px;
+    color: white;
+    font-family: 'Oregano', cursive;
+}
+
+
+.text {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    font-family: 'Thasadith', sans-serif;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.title1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Thasadith', sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+
+
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+}
+
+.container .row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .row h3 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .row p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#onama .row h3 {
+    text-transform: uppercase;
+}
+
+#onama .row .r {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 100px;
+
+}
+
+#onama {
+    margin-top: 30px;
+    background: rgba(83, 83, 83, 0.088);
+}
+
+#onama .row .r p {
+
+    padding-top: 20px;
+    padding-right: 90px;
+    font-size: 17px;
+    text-align: justify;
+}
+#menii {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#meni2 .row {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#meni .row {
+    padding-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#meni .row h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+
+}
+
+#meni .row h4 {
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+}
+
+#meni .row h4 span {
+    float: right;
+}
+
+#meni .row p {
+    font-size: 15px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+
+#meni1 .row {
+    padding-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#meni1 .row h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+
+}
+
+#meni1 .row h4 {
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+}
+
+#meni1 .row h4 span {
+    float: right;
+}
+
+#meni1 .row p {
+    font-size: 15px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#sefkuhinje .row {
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+#sefkuhinje .row h1 {
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#sefkuhinje .row p {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+#sefkuhinje .row img {
+    padding-bottom: 40px;
+}
+
+#kontakt {
+    background: rgba(41, 41, 41, 0.755);
+}
+
+#kontakt .row {
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#kontakt .row h4 {
+    text-align: center;
+    padding-top: 20%;
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+#kontakt .row p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#kontakt .slanje h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#kontakt .slanje input {
+    margin-left: 40%;
+    box-sizing: border-box;
+    background: rgba(41, 41, 41, 0.755);
+    color: white;
+}
+
+#kontakt .slanje textarea {
+    margin-top: -5px;
+    margin-left: 30%;
+    background: rgba(41, 41, 41, 0.755);
+    color: white;
+}
+
+#kontakt .slanje button {
+    margin-left: 43%;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+footer .cont {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    padding-left: 120px;
+    padding-bottom: 10px;
+
+}
+
+footer .cont .fa {
+    float: right;
+    padding-right: 90px;
+    color: gray;
+
+}
